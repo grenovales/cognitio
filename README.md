@@ -11,3 +11,12 @@ To get started you will first need the following installed on your machine.
     - On Mac I recomment using Homebrew ```brew install mongodb```
     - On Windows, download and install the MSI package @ https://www.mongodb.org/downloads
   - You must then make sure you have MongoDB running by typing ```mongod``` in your terminal.
+
+Running
+-------------------
+You can then download this repository, navigate to the folder in your Terminal, and then type the following.
+
+```
+npm install
+node server
+```
