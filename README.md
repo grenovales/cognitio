@@ -1,6 +1,6 @@
 # cognitio
 
-Cognitio is new learning platform for Spanish Speaking Development Communities
+Cognitio is new learning platform for Spanish speaking developer communities
 
 Installation
 -------------------
