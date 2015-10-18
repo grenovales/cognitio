@@ -1,0 +1,32 @@
+{
+  "name": "cognitio",
+  "version": "0.1.0",
+  "description": "Cognitio Main Portal Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "env TEST_SUITE=1 mocha test/test.js -b -t 60000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camazorro/cognitio.git"
+  },
+  "keywords": [
+    "Cognitio",
+    "nodejs",
+    "ReactJS",
+    "MongoDB"
+  ],
+  "author": "support@outboxsoft.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camazorro/cognitio/issues"
+  },
+  "homepage": "https://github.com/camazorro/cognitio#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.0.46"
+  },
+  "devDependencies":{
+    "mocha": "^2.3.3"    
+  }
+}
