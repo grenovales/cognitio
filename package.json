@@ -23,9 +23,10 @@
   "homepage": "https://github.com/camazorro/cognitio#readme",
   "dependencies": {
     "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
     "mongodb": "^2.0.46"
   },
-  "devDependencies":{
-    "mocha": "^2.3.3"    
+  "devDependencies": {
+    "mocha": "^2.3.3"
   }
 }
