@@ -1,0 +1,13 @@
+/**
+ * Define Users Mongoose Model for The Users Collecion
+ */
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
+var userSchema = new Schema({
+	userName: String,
+	password: String,
+	firstName: String,
+	lastName: String,
+	email: String
+});
