@@ -5,9 +5,13 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var userSchema = new Schema({
+	userID: String,
 	userName: String,
 	password: String,
 	firstName: String,
 	lastName: String,
-	email: String
+	email: String,
+	createdDate: {type: Date, default:Date.now},
+	lassAccessDate: Date,
+	active: Boolean
 });
