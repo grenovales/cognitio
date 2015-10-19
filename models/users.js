@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var userSchema = new Schema({
-	userID: String,
+	userID: Schema.Types.ObjectId,
 	userName: String,
 	password: String,
 	firstName: String,
@@ -13,5 +13,6 @@ var userSchema = new Schema({
 	email: String,
 	createdDate: {type: Date, default:Date.now},
 	lassAccessDate: Date,
-	active: Boolean
+	active: Boolean,
+	courses:[],
 });
