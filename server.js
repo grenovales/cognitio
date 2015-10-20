@@ -4,7 +4,7 @@
 var express = require('express'),
 	exphbs = require('express-handlebars'),
 	http = require('http'),
-	routes = require('./routes');	
+	routes = require('./routes/main');	//TODO: Use Scatter to do IoC
 
 // Create an express instance and set a port variable
 var app = express();
