@@ -6,7 +6,7 @@ var self = module.exports = {
 	register: function(app){
 		app.get('/',self.index);
 	}
-}
+};
 self.__module ={
 	provides: ['routes/register']
 }
