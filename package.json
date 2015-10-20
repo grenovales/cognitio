@@ -4,7 +4,7 @@
   "description": "Cognitio Main Portal Application",
   "main": "server.js",
   "scripts": {
-    "test": "env TEST_SUITE=1 mocha test/test.js -b -t 60000"
+    "test": ""
   },
   "repository": {
     "type": "git",
