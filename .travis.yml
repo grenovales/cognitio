@@ -1,0 +1,8 @@
+language: node_js
+node_js: 
+	- "0.12"
+services:
+	-	mongodb
+notifications:
+	slack: exit-dev:K5fly8RHVEPhDHZjjsYcJLw3
+after_success: 'make report-cov
