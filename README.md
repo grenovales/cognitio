@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/camazorro/cognitio.svg)](https://travis-ci.org/camazorro/cognitio)
+[![Dependency Status](https://david-dm.org/camazorro/cognitio.svg)](https://david-dm.org/camazorro/cognitio)
 # cognitio
 
 Cognitio is new learning platform for Spanish speaking developer communities
