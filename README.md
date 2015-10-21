@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/camazorro/cognitio.svg)](https://travis-ci.org/camazorro/cognitio)
+[![Coverage Status](https://coveralls.io/repos/camazorro/cognitio/badge.svg?branch=master&service=github)](https://coveralls.io/github/camazorro/cognitio?branch=master)
 [![Dependency Status](https://david-dm.org/camazorro/cognitio.svg)](https://david-dm.org/camazorro/cognitio)
 [![devDependency Status](https://david-dm.org/camazorro/cognitio/dev-status.svg)](https://david-dm.org/camazorro/cognitio#info=devDependencies)
 # cognitio
