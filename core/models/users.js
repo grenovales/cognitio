@@ -1,8 +1,9 @@
 /**
  * Define Users Mongoose Model for The Users Collecion
  */
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var mongoose = require('mongoose')
+	,Schema = mongoose.Schema
+    ,model = module.exports;
 
 var userSchema = new Schema({
 	userID: {type: Schema.Types.ObjectId},
@@ -20,3 +21,22 @@ var userSchema = new Schema({
 	isActive: {type: Boolean, required: true, default: true},
 	courses:[],
 });
+
+model.save = function(userBag){
+    var Users = mongoose.model('users', userSchema);
+    Users.collection.insert(userBag, function(error,docs){
+        if (err) {
+            console.error(err);
+        } else {
+            console.info('%d users were successfully stored.', docs.length);
+        }
+    });
+};
+
+model.find = function(query){
+	 var Users = mongoose.model('users', userSchema);
+	 Users.find(query,function(err,docs){
+		if(err) console.error(err);
+		 return docs;
+	 });
+};
