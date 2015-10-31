@@ -1,6 +1,6 @@
 var self = module.exports = {
 	index: function(request,response){
-		response.render('home',{"logo":"/public/cognitioLogo.png"});
+		response.render('home',{"logo":"/images/cognitioLogo.jpg"});
 	},
 	
 	register: function(app){
