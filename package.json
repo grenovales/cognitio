@@ -26,7 +26,7 @@
     "express-handlebars": "^2.0.1",
     "mocha": "^2.3.3",
     "mongodb": "^2.0.46",
-    "mongoose": "^4.1.12",
+    "mongoose": "^5.10.9",
     "scatter": "^0.7.3"
   },
   "devDependencies": {
